@@ -28,13 +28,16 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+
 }
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
-        font-size: 20px;
+        margin: 35px 0 35px;
+        font-size: 30px;
         line-height: 1.6;
+        color:#FFF;
+        
     }
 }
 
@@ -43,6 +46,9 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    font-style: bold;
+    font-size: 16px;
+    font-weight: 700
 }
 
 a:hover,
@@ -56,11 +62,12 @@ a:focus {
 }
 
 .loud{
-    font-size: 36px;
+    font-size: 50px;
+    color: #219ab3;
 }
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(250,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
@@ -135,7 +142,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/overview.jpg) no-repeat bottom center scroll;
+    background: url(../img/dj.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -179,7 +186,7 @@ a:focus {
     border: 2px solid #fff;
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: black;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -189,8 +196,9 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #219ab3;
     background: rgba(255,255,255,.1);
+    outline-color: black
 }
 
 .btn-circle i.animated {
@@ -198,6 +206,7 @@ a:focus {
     -webkit-transition-duration: 1s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 1s;
+    color:#219ab3;
 }
 
 .btn-circle:hover i.animated {
@@ -209,6 +218,7 @@ a:focus {
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
+    color:black;
 }
 
 @-webkit-keyframes pulse {    
@@ -247,15 +257,16 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+
 }
 
 .portfolio-section {
     width: 100%;
     height:auto;
     padding: 0;
-    color: #fff;
-    background: url(../img/computertable.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    color: #FFF;
+    background: url(../img/mac.jpg) no-repeat bottom center scroll;
+    background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -265,21 +276,30 @@ a:focus {
 .about-section {
     width:100%;
     height: auto;
+    background-color:#FFFEF0;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:40px;
+    padding-bottom:auto;
+
+
     
+
 }
 
 #about , #contact{
-    color: #000;
+    color:black;
 }
 
 #about{
-    padding:50px 0 100px 0;
-     background: #18bc9c;
+    padding:70px;
+    background:#219ab3 ;
 }
 
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
+        background-color:#fff;
     }
 
     .portfolio-section {
@@ -326,16 +346,19 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
-        padding: 0;
+        margin: auto; 
+
     }
 
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
+        text-align: center 
     }
 }
 
 footer {
     padding: 50px 0;
+    background-color: #fff;
 }
 
 footer p {
@@ -364,4 +387,15 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+.bluetext{
+    color:#219ab3;
+}
+.big {
+    font-size: 20px;
+    color: black;
+}
+.email{
+    color:black;
+    font-size: 20px;
 }
