@@ -265,8 +265,8 @@ a:focus {
     height:auto;
     padding: 0;
     color: #FFF;
-    background: url(../img/macandbook.jpg) no-repeat bottom center scroll;
-    background-color: black;
+    background: url(../img/stairs.jpg) no-repeat bottom center scroll;
+    background-color:#219ab3 ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
